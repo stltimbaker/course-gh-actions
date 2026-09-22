@@ -1,4 +1,4 @@
-name: upper-build
+name: tim_upper-build
 
 on:
   push:
