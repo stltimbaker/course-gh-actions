@@ -20,8 +20,8 @@ jobs:
             - run: gh issue list
             - run: gh workflow list
             - run: gh api /repos/:owner/:repo/actions/workflows
-      message:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print message
-        run: node -e "console.log('Hello, world!')"
+    message:
+       runs-on: ubuntu-latest
+       steps:
+         - name: Print message
+           run: node -e "console.log('Hello, world!')"
